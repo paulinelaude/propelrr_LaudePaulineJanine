@@ -1,0 +1,52 @@
+.pl-5 {
+    padding-left: 50px;
+}
+.pt-5 {
+    padding-top: 5px;
+}
+.result {
+    color: green;
+}
+.back-btn {
+    font-size: 16px;
+    color: black;
+}
+.error_class {
+    color: red;
+    font-weight: 500;
+}
+.error_class p::before {
+    content: "*";
+    color: red;
+}
+.success {
+    color: #1eb11e;
+    margin-left: 5%;
+    font-weight: 600;
+    font-size: 16px;
+}
+.btn-submit {
+    text-align: right;
+}
+
+.row label {
+    text-align: right;
+}
+
+@media (min-width: 769px) {
+    #submit-form .form-group {
+        margin-bottom: 42px;
+    }
+    
+}
+@media (max-width: 768px) {
+    .row label {
+        text-align: center;
+    }
+}
+
+.list-group-item-action:focus, .list-group-item-action:hover {
+    color: #495057;
+    text-decoration: none;
+    background-color: #f8f9fa;
+}
